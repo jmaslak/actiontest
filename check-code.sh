@@ -1,7 +1,8 @@
 #!/bin/bash
 
 doit() {
-    echo "Yep."
+    echo "NOPE"
+    exit 1
 }
 
 doit "$@"
