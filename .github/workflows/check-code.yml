@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latestA
+    runs-on: ubuntu-latest
     name: Testing
     steps:
       - uses: actions/checkout@v3
